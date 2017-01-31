@@ -1,0 +1,25 @@
+{
+	"name" : "mops1k/minecraftskinview",
+	"type" : "library",
+	"description" : "Minecraft skin preview converter (support HD skins and capes)",
+	"keywords" : [
+		"minecraft",
+		"skin",
+		"cape",
+		"cloak",
+		"head",
+		"preview"
+	],
+	"license" : "BSD",
+	"autoload" : {
+		"psr-4" : {
+			"Minecraft\\" : "src/"
+		}
+	},
+	"authors" : [
+		{
+			"name" : "mops1k",
+			"email" : "bednyj.mops@gmail.com"
+		}
+	]
+}
